@@ -353,9 +353,9 @@
                     }
                     /**Countdown**/
                     
-                    @media only screen and (max-width: 780px) {
+                    @media only screen and (min-width: 780px) {
                         .section-countdown {
-                            background: red;
+                            background: blue;
                             position: relative;
                             height: auto;
                         }
@@ -365,7 +365,11 @@
                     }
                     
                     .section-countdown {
-                        background: red;
+                        background-image: url('img/bg-resumen.jpg');
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: bottom;
+                        background-attachment: fixed;
                     }
                     
                     .section-countdown::before {
@@ -389,8 +393,7 @@
                         color: white;
                     }
                     
-                    @media only screen and (min-width: 760px);
-                    {
+                    @media only screen and (min-width: 760px) {
                         .sumary-event li {
                             width: 25%;
                         }
@@ -417,8 +420,6 @@
                     .section-countdown ul {
                         list-style: none;
                     }
-                    
-                    .section-countdown ul li {}
                     /**Prices**/
                     
                     .section-price {
