@@ -1,0 +1,163 @@
+@media only screen and (max-width: 760px) {
+    h2 {
+        font-size: 5vw;
+    }
+    h3 {
+        font-size: 4vw;
+    }
+    h4 {
+        font-size: 3vw;
+    }
+    span {
+        font-size: 4vw;
+    }
+    i {
+        font-size: 4vw;
+    }
+    .boton-rojo {
+        font-size: 4vw;
+        margin-bottom: 2vw;
+    }
+    .boton-tomato {
+        font-size: 4vw;
+        margin-bottom: 2vw;
+    }
+    .boton-tomato2 {
+        font-size: 4vw;
+        margin-bottom: 2vw;
+    }
+    main {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        margin-top: 0;
+    }
+    /**Header**/
+    .site-header {
+        display: none;
+    }
+    /**Horizontal menu**/
+    .menu-1 img {
+        width: 30vh;
+    }
+    .titulos {
+        display: none;
+    }
+    .menu-movil {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .presentacion p {
+        margin: 0;
+        padding: 1vw;
+        width: 100%;
+        font-size: 4vw;
+    }
+    /**Eventos**/
+    .eventos {
+        border-top: 1px solid black;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+    .eventos video {
+        display: none;
+    }
+    /**Imagenes**/
+    .imagenes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .imagenes img {
+        padding: 2vw;
+    }
+    /**Guests**/
+    .section-guest {
+        display: none;
+    }
+    /**Things**/
+    .section-countdown {
+        height: 30vw;
+    }
+    .sumary-event {
+        padding: 0;
+        margin: 0;
+    }
+    .number {
+        font-size: 9vw;
+    }
+    .sumary-event li {
+        margin-top: 3vh;
+        color: white;
+        font-size: 4vw;
+    }
+    /**Prices**/
+    .prices {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .price h3 {
+        font-size: 8vw;
+    }
+    .price h4 {
+        font-size: 8vw;
+    }
+    /**opinions**/
+    .section-opinions h2 {
+        font-size: 7vw;
+    }
+    .opinions {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .opinion p {
+        text-align: center;
+    }
+    /**Register**/
+    .section-register h4 {
+        font-size: 5vw;
+    }
+    .container-register h1 {
+        font-size: 15vw;
+    }
+    .container-register a {
+        font-size: 4vw;
+        margin-bottom: 2vw;
+    }
+    /**Final countdown**/
+    .section-finalcountdown h3 {
+        font-size: 6vw;
+    }
+    ul.finalcountdown {
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 1vw;
+    }
+    ul.finalcountdown span {
+        font-size: 14vw;
+    }
+    ul.finalcountdown li {
+        font-size: 5vw;
+    }
+    .dis {
+        display: none;
+    }
+    /**Footer**/
+    footer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    footer h2 {
+        font-size: 6vw;
+    }
+    footer span {
+        font-size: 6vw;
+    }
+    footer p {
+        font-size: 4vw;
+    }
+    .lista {
+        font-size: 4vw;
+    }
+    .l1 {
+        font-size: 5vw;
+    }
+}
+
+
+}
