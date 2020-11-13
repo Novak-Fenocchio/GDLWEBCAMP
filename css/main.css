@@ -372,11 +372,6 @@
                         background-attachment: fixed;
                     }
                     
-                    .section-countdown::before {
-                        background-image: url('img/bg-resumen.jpg');
-                        content: '';
-                    }
-                    
                     .sumary-event {
                         padding: 120px 0;
                         display: grid;
